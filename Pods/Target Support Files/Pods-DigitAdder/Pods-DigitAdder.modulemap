@@ -1,0 +1,6 @@
+framework module Pods_DigitAdder {
+  umbrella header "Pods-DigitAdder-umbrella.h"
+
+  export *
+  module * { export * }
+}
