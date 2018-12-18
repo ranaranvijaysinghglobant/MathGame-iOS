@@ -7,63 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03F09FB6F644F796D5A5F62450E79F7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		0A21482B840E435BD920CFDA8CBA7058 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D325D8BB73FFEA8A5BFE7AC4717ABC1 /* SwiftSupport.swift */; };
-		1A5A6E183160B640DF814E2CC25B6937 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A828A4BB655A04D486869DB12535E95 /* FBSnapshotTestController.m */; };
-		29FF55B7B09815A5389D3BBD129E4473 /* iOSSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D332364EC8CFC7B7A8601D162DE341 /* iOSSnapshotTestCase-dummy.m */; };
-		2A3DB360FC888069CD3FE711005A8948 /* Pods-DigitAdder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EB5334A0033BDFD1374E30FEB75F27 /* Pods-DigitAdder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30FC8B30CE5CAFE5E90D8AE7261AE5D4 /* iOSSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B51F98E2077A74C752D6E99E29509C3 /* iOSSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32A55AE0DD706E7BC8F18CA6B21505B3 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB372A6F044F6BC2325BEE892D1FA75 /* FBSnapshotTestCase.m */; };
-		378EEE0B1A986D3F82344A8E1F9961EB /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E387BF3F75A60D3CFA8772A980BD41 /* UIImage+Snapshot.m */; };
-		4944D969259F3E5B0D32C7A2BDDDB991 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
-		4C9D350DB2A8F0727E7CE4D79192AC55 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5F124B5ADE812638210804A053765C /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CBE669E5155E026F74732CBB0E77362 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C4D093560A215605ECD4B79C73D15B /* UIImage+Compare.m */; };
-		5225849D59D4875C0B3B1B8DAB2A1CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		6196CCF742E4FB8F411C643FD72AE08F /* Pods-DigitAdderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 673F19301679CD6EB10B1C04CDA730A7 /* Pods-DigitAdderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65E49B0355B1479F008B8143F23AEF79 /* Pods-DigitAdderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79315DCB8CDF104E566B6EAF7B13300B /* Pods-DigitAdderUITests-dummy.m */; };
-		6A63F37684AF6D2234601594A6784677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		774A420FCFA15B67B466C60405F5084C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0FA77EFFA28655E0C4ED4AFA11C1AE /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F8DA087C92A87D097EC073BE7DE7E3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B95F9FB07E83D2C967F6AC268E01F2E /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7A5FC1B55B42A907E401D4C59A32EBEF /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 33BEBA8A84467EFA68CCAD4C69921288 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8EE887E4B436CB851500ADB393DED107 /* Pods-DigitAdderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BB1DCD3F89C2CBA68EE2C77F8C4CE2 /* Pods-DigitAdderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EF9BF4AAE6DDC00718E06DD849ABAE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		94AF4A61AC2B9EDA3A1451740747B45E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = DE01437BBE5AD358B896399FFBCE5930 /* FBSnapshotTestCasePlatform.m */; };
-		9AE67594CC8D41CBA45120CD32308FED /* Pods-DigitAdder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40C15BAA0029511EFB078306EE90E2 /* Pods-DigitAdder-dummy.m */; };
-		B6EE380A20E764D912CF7CF9DDCCA9BA /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 385F06F5DD420385C455BE3D94213B33 /* UIImage+Diff.m */; };
-		CB1C5719213BCBC2FA1F66B13D395C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		CEDBA5B00C4448733007A8F0D5884ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		D90EE23157EF1E2B029149E2ABCDDED4 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9047C7F0777055F56676E2272C0380BB /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E5A23E9758FEED86555B3C62F1138C01 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CE5D96608F620E74D880C60EF818BE /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCC25DDBA5A3F190BD4878D48F0E745B /* Pods-DigitAdderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608A7DF68B163A8DFA060916537DAC1A /* Pods-DigitAdderTests-dummy.m */; };
+		03D9FA1D368DE04CBC17735D036CB0AC /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B95F9FB07E83D2C967F6AC268E01F2E /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0BFEB83762334C6357E3EE90097D4388 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5F124B5ADE812638210804A053765C /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0B13C8EE1D08CBAB0EB0CAB2C342AC /* Pods-DigitAdderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608A7DF68B163A8DFA060916537DAC1A /* Pods-DigitAdderTests-dummy.m */; };
+		17E51AFDFDBA721468B3B487578152C4 /* iOSSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B51F98E2077A74C752D6E99E29509C3 /* iOSSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18C3ECB43B05D9096D757BB59E5891CB /* Pods-DigitAdder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EB5334A0033BDFD1374E30FEB75F27 /* Pods-DigitAdder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255991CE0E9BE369DDB074CFB07DC2F4 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 33BEBA8A84467EFA68CCAD4C69921288 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28A7BD7EB950A9B9E90C0733EDA5DB21 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB372A6F044F6BC2325BEE892D1FA75 /* FBSnapshotTestCase.m */; };
+		2D194C094FF28C60F54F3AAE12F9EA82 /* Pods-DigitAdderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 673F19301679CD6EB10B1C04CDA730A7 /* Pods-DigitAdderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C70F4E43D4EAF4DEB2839944E67C0E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C4D093560A215605ECD4B79C73D15B /* UIImage+Compare.m */; };
+		38423C6F928999BB910C104B4E5BDDFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */; };
+		42C12046999900AE237432B32DE02708 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A828A4BB655A04D486869DB12535E95 /* FBSnapshotTestController.m */; };
+		531B110C6B0B9E83FFC106D88183BA08 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = DE01437BBE5AD358B896399FFBCE5930 /* FBSnapshotTestCasePlatform.m */; };
+		54A698F05B02B66191CD7C81B92A64FF /* Pods-DigitAdderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79315DCB8CDF104E566B6EAF7B13300B /* Pods-DigitAdderUITests-dummy.m */; };
+		5A0CD87A3ED90370FBE9C2D34D28B831 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0FA77EFFA28655E0C4ED4AFA11C1AE /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732EC64E2011E6306900E1BD72326C79 /* Pods-DigitAdderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BB1DCD3F89C2CBA68EE2C77F8C4CE2 /* Pods-DigitAdderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844EDCE06A5F272C8BE0C994DAA5F2EB /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D325D8BB73FFEA8A5BFE7AC4717ABC1 /* SwiftSupport.swift */; };
+		8BAC08A15BB713055032EEF9D0AF5782 /* Pods-DigitAdder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40C15BAA0029511EFB078306EE90E2 /* Pods-DigitAdder-dummy.m */; };
+		8DD949008257CE640EE411DC5207A26D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9047C7F0777055F56676E2272C0380BB /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		988CE191249034461B77C6B0DB40C77C /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CE5D96608F620E74D880C60EF818BE /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFBD4E0D365BD8A1115D1A4F9BD578A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		AC6A33C93C6A45A72E41CDF4ABE899B1 /* iOSSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D332364EC8CFC7B7A8601D162DE341 /* iOSSnapshotTestCase-dummy.m */; };
+		AD5D759A5CE47EF38847CE06E23BA694 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E387BF3F75A60D3CFA8772A980BD41 /* UIImage+Snapshot.m */; };
+		C38AB418F4A89F37651EADC6D153FE54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		C54145BF50C86788D20B8FFBFD01A8CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */; };
+		F0B26BD0BFA0AD45BBC4ED2AE113D2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		F7B2DB84BE0344D0899FA5165A5670B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */; };
+		FD5345BA620698C24F2AF1275EB7B3BE /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 385F06F5DD420385C455BE3D94213B33 /* UIImage+Diff.m */; };
+		FE7E604D7DC993062746EE8AFF8E6E31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0F55B4D8DC2046140B2CBB5B742D84DF /* PBXContainerItemProxy */ = {
+		1083ECCC46A05400230AA1710B740E40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BFC6DB46D0F2DC7150A42264441BA14D;
+			remoteGlobalIDString = 3A7C052980859AC7A1D565D2BC4E50BA;
+			remoteInfo = "Pods-DigitAdder";
+		};
+		695C1091ADB46B3ED639CB9439870192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB670195D5BD218E1661BC4890D70E2;
 			remoteInfo = iOSSnapshotTestCase;
 		};
-		C4351D1BF244BB53B853BE0389926B66 /* PBXContainerItemProxy */ = {
+		D140B64323B8F6379EFF2D973667DB9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C3FCC8DC94F55CA1359D9C48DC98FB47;
+			remoteGlobalIDString = 3A7C052980859AC7A1D565D2BC4E50BA;
 			remoteInfo = "Pods-DigitAdder";
 		};
-		D6C9A6C1588F011C1DAE95FDEBA44F83 /* PBXContainerItemProxy */ = {
+		E0A139235E7D9CEDFF99ABCF0F7736CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C3FCC8DC94F55CA1359D9C48DC98FB47;
-			remoteInfo = "Pods-DigitAdder";
-		};
-		DE654950B2B1324846AD7B13EF129DC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFC6DB46D0F2DC7150A42264441BA14D;
+			remoteGlobalIDString = CCB670195D5BD218E1661BC4890D70E2;
 			remoteInfo = iOSSnapshotTestCase;
 		};
 /* End PBXContainerItemProxy section */
@@ -74,11 +74,12 @@
 		28E387BF3F75A60D3CFA8772A980BD41 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		33BEBA8A84467EFA68CCAD4C69921288 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		35C4D093560A215605ECD4B79C73D15B /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		385F06F5DD420385C455BE3D94213B33 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		38DC604B7A687601C429F98C268D90D8 /* Pods-DigitAdderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DigitAdderTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		42D53BC56023D1E65CE44FD5BA5259AA /* Pods-DigitAdderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DigitAdderUITests.modulemap"; sourceTree = "<group>"; };
 		47CE5D96608F620E74D880C60EF818BE /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4E38E03D491AC72DC141553BEA5D2F2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E50F573D392D201CB11085B1147FF44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56252B989A8D61FB81A2C13AC740D43F /* Pods-DigitAdder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitAdder-frameworks.sh"; sourceTree = "<group>"; };
@@ -101,10 +102,8 @@
 		96F563024462310CE54BAFEAA57E02F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AEFA21C747306659255B436BB2E9FAF /* Pods-DigitAdderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitAdderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A0E0C49A36BF544BBF78769C13353038 /* Pods-DigitAdder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitAdder-resources.sh"; sourceTree = "<group>"; };
-		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A3D0E6C0F95E3D602F84A64E62091BBD /* Pods-DigitAdderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitAdderUITests-resources.sh"; sourceTree = "<group>"; };
 		A89D3763E0CD0D9B108E1500E6CC343A /* Pods_DigitAdderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DigitAdderUITests.framework; path = "Pods-DigitAdderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AC9C89C74247096D1AB7AB1C4C7F5F64 /* Pods-DigitAdderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DigitAdderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF40C15BAA0029511EFB078306EE90E2 /* Pods-DigitAdder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DigitAdder-dummy.m"; sourceTree = "<group>"; };
 		B2BB1DCD3F89C2CBA68EE2C77F8C4CE2 /* Pods-DigitAdderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DigitAdderTests-umbrella.h"; sourceTree = "<group>"; };
@@ -113,8 +112,8 @@
 		BC73D9A830E7021B020493DCAF43FDBD /* Pods-DigitAdderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DigitAdderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BCD12C9C561E87FDA6E4EC66E02D55B5 /* Pods-DigitAdderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DigitAdderTests.modulemap"; sourceTree = "<group>"; };
 		BF0FA77EFFA28655E0C4ED4AFA11C1AE /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C5CAE11A6F8C7A6DC6C73CFBB39D117A /* Pods-DigitAdder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitAdder.release.xcconfig"; sourceTree = "<group>"; };
-		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCD8CAE1B6A757C787393510475019D9 /* Pods-DigitAdderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitAdderTests-resources.sh"; sourceTree = "<group>"; };
 		CDF65988635A2DB59AC8A1C6D9C91AC2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = iOSSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6399C0D29A54348C5EC6EA02DBC4D52 /* Pods_DigitAdderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DigitAdderTests.framework; path = "Pods-DigitAdderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,44 +123,45 @@
 		E70253F0154323D468AA4860826BAE8E /* iOSSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		EC28845F2338E1C50A1BDB178E1314A2 /* Pods_DigitAdder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DigitAdder.framework; path = "Pods-DigitAdder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D6B16C5FAD97EB5766E943906ABE30 /* Pods-DigitAdderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitAdderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FAE72E136AF2FAE911AAEEEB3422BD98 /* Pods-DigitAdder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DigitAdder.modulemap"; sourceTree = "<group>"; };
 		FBB372A6F044F6BC2325BEE892D1FA75 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		FCE20172DC87FA118FFF46D011E83A36 /* Pods-DigitAdderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitAdderTests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22045457857CD651BB4EF7259D1F956E /* Frameworks */ = {
+		28268179E25DBA0DDB15BC6CB069671D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDBA5B00C4448733007A8F0D5884ED8 /* Foundation.framework in Frameworks */,
+				F0B26BD0BFA0AD45BBC4ED2AE113D2A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46D9BDE8342D451706A0D81F4AF10B89 /* Frameworks */ = {
+		34B52CE399DA1159660026C632CB8804 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF9BF4AAE6DDC00718E06DD849ABAE3 /* Foundation.framework in Frameworks */,
-				03F09FB6F644F796D5A5F62450E79F7F /* QuartzCore.framework in Frameworks */,
-				6A63F37684AF6D2234601594A6784677 /* UIKit.framework in Frameworks */,
-				4944D969259F3E5B0D32C7A2BDDDB991 /* XCTest.framework in Frameworks */,
+				AAFBD4E0D365BD8A1115D1A4F9BD578A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80623EF3BEED61C646EBD1076CFB2357 /* Frameworks */ = {
+		75CCC1E0CDF4F02BF11462695F1569BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1C5719213BCBC2FA1F66B13D395C6B /* Foundation.framework in Frameworks */,
+				FE7E604D7DC993062746EE8AFF8E6E31 /* Foundation.framework in Frameworks */,
+				38423C6F928999BB910C104B4E5BDDFD /* QuartzCore.framework in Frameworks */,
+				F7B2DB84BE0344D0899FA5165A5670B0 /* UIKit.framework in Frameworks */,
+				C54145BF50C86788D20B8FFBFD01A8CB /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8F2998EE8623FEC5C5372D9CE1DDA5F /* Frameworks */ = {
+		8D349BC163D03E79279A3AC271EF6624 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5225849D59D4875C0B3B1B8DAB2A1CBA /* Foundation.framework in Frameworks */,
+				C38AB418F4A89F37651EADC6D153FE54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +171,7 @@
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
+				77E6A3533BFFC5453A29188F8955E61A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,6 +243,17 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		77E6A3533BFFC5453A29188F8955E61A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */,
+				C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */,
+				37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */,
+				4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -262,17 +273,6 @@
 				436E3251E18721F0A9954EF65748BDC5 /* Pods-DigitAdderUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
-				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
-				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
-				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		A686C84B779B538201BD3270D6337145 /* Core */ = {
@@ -345,92 +345,93 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06D5AF99C524FF54CB12C8567DFB8872 /* Headers */ = {
+		366E568BC7C39A56AC447CD87B82C944 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6196CCF742E4FB8F411C643FD72AE08F /* Pods-DigitAdderUITests-umbrella.h in Headers */,
+				2D194C094FF28C60F54F3AAE12F9EA82 /* Pods-DigitAdderUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1431BED6243809BF9F115C979BA5B66D /* Headers */ = {
+		9C221F4C5AC220BFE8FA7A078932DB14 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EE887E4B436CB851500ADB393DED107 /* Pods-DigitAdderTests-umbrella.h in Headers */,
+				5A0CD87A3ED90370FBE9C2D34D28B831 /* FBSnapshotTestCase.h in Headers */,
+				0BFEB83762334C6357E3EE90097D4388 /* FBSnapshotTestCasePlatform.h in Headers */,
+				988CE191249034461B77C6B0DB40C77C /* FBSnapshotTestController.h in Headers */,
+				17E51AFDFDBA721468B3B487578152C4 /* iOSSnapshotTestCase-umbrella.h in Headers */,
+				255991CE0E9BE369DDB074CFB07DC2F4 /* UIImage+Compare.h in Headers */,
+				03D9FA1D368DE04CBC17735D036CB0AC /* UIImage+Diff.h in Headers */,
+				8DD949008257CE640EE411DC5207A26D /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C1C5854325854EE36E8AC36A8E78705 /* Headers */ = {
+		E2F22F535BAE0FC7A29C746C5062D364 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774A420FCFA15B67B466C60405F5084C /* FBSnapshotTestCase.h in Headers */,
-				4C9D350DB2A8F0727E7CE4D79192AC55 /* FBSnapshotTestCasePlatform.h in Headers */,
-				E5A23E9758FEED86555B3C62F1138C01 /* FBSnapshotTestController.h in Headers */,
-				30FC8B30CE5CAFE5E90D8AE7261AE5D4 /* iOSSnapshotTestCase-umbrella.h in Headers */,
-				7A5FC1B55B42A907E401D4C59A32EBEF /* UIImage+Compare.h in Headers */,
-				79F8DA087C92A87D097EC073BE7DE7E3 /* UIImage+Diff.h in Headers */,
-				D90EE23157EF1E2B029149E2ABCDDED4 /* UIImage+Snapshot.h in Headers */,
+				732EC64E2011E6306900E1BD72326C79 /* Pods-DigitAdderTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		941A7A7AA42354B18D6F0F771F00A9A7 /* Headers */ = {
+		F289B797D827C91C4A277998D9A8B5D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3DB360FC888069CD3FE711005A8948 /* Pods-DigitAdder-umbrella.h in Headers */,
+				18C3ECB43B05D9096D757BB59E5891CB /* Pods-DigitAdder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		39FE22033050AC6EA36E420C5A5A398E /* Pods-DigitAdderTests */ = {
+		2EDFA6768C0C7BCCC36A0307E4E5E62C /* Pods-DigitAdderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72B6EA2E2742DFF04EC613A8976C2FB5 /* Build configuration list for PBXNativeTarget "Pods-DigitAdderTests" */;
+			buildConfigurationList = D4E91BF0A62B789C2FFD34BFA9158E62 /* Build configuration list for PBXNativeTarget "Pods-DigitAdderTests" */;
 			buildPhases = (
-				50553A680C412E425CDDC6F53F717C25 /* Sources */,
-				D8F2998EE8623FEC5C5372D9CE1DDA5F /* Frameworks */,
-				1431BED6243809BF9F115C979BA5B66D /* Headers */,
+				E2F22F535BAE0FC7A29C746C5062D364 /* Headers */,
+				C369B070CD4A01AAC7259A7FE68B2F81 /* Sources */,
+				8D349BC163D03E79279A3AC271EF6624 /* Frameworks */,
+				D569F6A0873C959885BA9A941224ED81 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				442DFDCE61A73628D06548FAB1974EFA /* PBXTargetDependency */,
-				A03894FDABD6F6C6CAC38AB4FF1FD041 /* PBXTargetDependency */,
+				2A34E4A95350FAEED447BEB0834EBD95 /* PBXTargetDependency */,
+				9B52682A65083C19AF1AF32D4973894B /* PBXTargetDependency */,
 			);
 			name = "Pods-DigitAdderTests";
 			productName = "Pods-DigitAdderTests";
 			productReference = D6399C0D29A54348C5EC6EA02DBC4D52 /* Pods_DigitAdderTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A058895F8F3EB6F0983DB938D8A4C729 /* Pods-DigitAdderUITests */ = {
+		3A7C052980859AC7A1D565D2BC4E50BA /* Pods-DigitAdder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C862A6809BF996F747B82DB7438DF330 /* Build configuration list for PBXNativeTarget "Pods-DigitAdderUITests" */;
+			buildConfigurationList = 57E8531F7C3185B6730A19BDE5E98259 /* Build configuration list for PBXNativeTarget "Pods-DigitAdder" */;
 			buildPhases = (
-				72BDB2CFE705F131025F63268C8756C7 /* Sources */,
-				22045457857CD651BB4EF7259D1F956E /* Frameworks */,
-				06D5AF99C524FF54CB12C8567DFB8872 /* Headers */,
+				F289B797D827C91C4A277998D9A8B5D9 /* Headers */,
+				1020A050622A6A96997FC7C630BD69BA /* Sources */,
+				28268179E25DBA0DDB15BC6CB069671D /* Frameworks */,
+				C83C7DFF1C1B11CD6606E6B07126E8D6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB15ECB9528B6397599AD3F953054D68 /* PBXTargetDependency */,
-				CA7C1B21FAE870AAD9E3720FCA766C2C /* PBXTargetDependency */,
 			);
-			name = "Pods-DigitAdderUITests";
-			productName = "Pods-DigitAdderUITests";
-			productReference = A89D3763E0CD0D9B108E1500E6CC343A /* Pods_DigitAdderUITests.framework */;
+			name = "Pods-DigitAdder";
+			productName = "Pods-DigitAdder";
+			productReference = EC28845F2338E1C50A1BDB178E1314A2 /* Pods_DigitAdder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BFC6DB46D0F2DC7150A42264441BA14D /* iOSSnapshotTestCase */ = {
+		CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6240B299005DEA7FF4670E5681B97704 /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */;
+			buildConfigurationList = D5813A2F6B0CDB6FD40A1348BFBA82EA /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */;
 			buildPhases = (
-				DE795B9D0846779A9CC3C0F1A0FBFA32 /* Sources */,
-				46D9BDE8342D451706A0D81F4AF10B89 /* Frameworks */,
-				1C1C5854325854EE36E8AC36A8E78705 /* Headers */,
+				9C221F4C5AC220BFE8FA7A078932DB14 /* Headers */,
+				5E6CA99EFC68AF0514F5BB3DCB17F0C5 /* Sources */,
+				75CCC1E0CDF4F02BF11462695F1569BB /* Frameworks */,
+				B05303B66CE7EF9C1F2EAD2C5EEEB5DD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -441,21 +442,24 @@
 			productReference = CDF65988635A2DB59AC8A1C6D9C91AC2 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C3FCC8DC94F55CA1359D9C48DC98FB47 /* Pods-DigitAdder */ = {
+		F538B2F1B23580482FDC0D8077BF02E5 /* Pods-DigitAdderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF836D29476471E0477D6DF15D6AE03D /* Build configuration list for PBXNativeTarget "Pods-DigitAdder" */;
+			buildConfigurationList = 0DDEA24393EF6D7D571E7A694905FFFC /* Build configuration list for PBXNativeTarget "Pods-DigitAdderUITests" */;
 			buildPhases = (
-				020ACBAE32856577F7495DE62BCB817F /* Sources */,
-				80623EF3BEED61C646EBD1076CFB2357 /* Frameworks */,
-				941A7A7AA42354B18D6F0F771F00A9A7 /* Headers */,
+				366E568BC7C39A56AC447CD87B82C944 /* Headers */,
+				DF3701FDFE9EBB236F44A51426C2319A /* Sources */,
+				34B52CE399DA1159660026C632CB8804 /* Frameworks */,
+				1A6D9F33108DC72C64F21C3A29CF02FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF61291CB633956C6E657A09918B917E /* PBXTargetDependency */,
+				A0D92F99B010C46215669E6064CE3E1E /* PBXTargetDependency */,
 			);
-			name = "Pods-DigitAdder";
-			productName = "Pods-DigitAdder";
-			productReference = EC28845F2338E1C50A1BDB178E1314A2 /* Pods_DigitAdder.framework */;
+			name = "Pods-DigitAdderUITests";
+			productName = "Pods-DigitAdderUITests";
+			productReference = A89D3763E0CD0D9B108E1500E6CC343A /* Pods_DigitAdderUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -479,85 +483,341 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFC6DB46D0F2DC7150A42264441BA14D /* iOSSnapshotTestCase */,
-				C3FCC8DC94F55CA1359D9C48DC98FB47 /* Pods-DigitAdder */,
-				39FE22033050AC6EA36E420C5A5A398E /* Pods-DigitAdderTests */,
-				A058895F8F3EB6F0983DB938D8A4C729 /* Pods-DigitAdderUITests */,
+				CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */,
+				3A7C052980859AC7A1D565D2BC4E50BA /* Pods-DigitAdder */,
+				2EDFA6768C0C7BCCC36A0307E4E5E62C /* Pods-DigitAdderTests */,
+				F538B2F1B23580482FDC0D8077BF02E5 /* Pods-DigitAdderUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1A6D9F33108DC72C64F21C3A29CF02FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05303B66CE7EF9C1F2EAD2C5EEEB5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83C7DFF1C1B11CD6606E6B07126E8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569F6A0873C959885BA9A941224ED81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		020ACBAE32856577F7495DE62BCB817F /* Sources */ = {
+		1020A050622A6A96997FC7C630BD69BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE67594CC8D41CBA45120CD32308FED /* Pods-DigitAdder-dummy.m in Sources */,
+				8BAC08A15BB713055032EEF9D0AF5782 /* Pods-DigitAdder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50553A680C412E425CDDC6F53F717C25 /* Sources */ = {
+		5E6CA99EFC68AF0514F5BB3DCB17F0C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC25DDBA5A3F190BD4878D48F0E745B /* Pods-DigitAdderTests-dummy.m in Sources */,
+				28A7BD7EB950A9B9E90C0733EDA5DB21 /* FBSnapshotTestCase.m in Sources */,
+				531B110C6B0B9E83FFC106D88183BA08 /* FBSnapshotTestCasePlatform.m in Sources */,
+				42C12046999900AE237432B32DE02708 /* FBSnapshotTestController.m in Sources */,
+				AC6A33C93C6A45A72E41CDF4ABE899B1 /* iOSSnapshotTestCase-dummy.m in Sources */,
+				844EDCE06A5F272C8BE0C994DAA5F2EB /* SwiftSupport.swift in Sources */,
+				32C70F4E43D4EAF4DEB2839944E67C0E /* UIImage+Compare.m in Sources */,
+				FD5345BA620698C24F2AF1275EB7B3BE /* UIImage+Diff.m in Sources */,
+				AD5D759A5CE47EF38847CE06E23BA694 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72BDB2CFE705F131025F63268C8756C7 /* Sources */ = {
+		C369B070CD4A01AAC7259A7FE68B2F81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E49B0355B1479F008B8143F23AEF79 /* Pods-DigitAdderUITests-dummy.m in Sources */,
+				0C0B13C8EE1D08CBAB0EB0CAB2C342AC /* Pods-DigitAdderTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE795B9D0846779A9CC3C0F1A0FBFA32 /* Sources */ = {
+		DF3701FDFE9EBB236F44A51426C2319A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A55AE0DD706E7BC8F18CA6B21505B3 /* FBSnapshotTestCase.m in Sources */,
-				94AF4A61AC2B9EDA3A1451740747B45E /* FBSnapshotTestCasePlatform.m in Sources */,
-				1A5A6E183160B640DF814E2CC25B6937 /* FBSnapshotTestController.m in Sources */,
-				29FF55B7B09815A5389D3BBD129E4473 /* iOSSnapshotTestCase-dummy.m in Sources */,
-				0A21482B840E435BD920CFDA8CBA7058 /* SwiftSupport.swift in Sources */,
-				4CBE669E5155E026F74732CBB0E77362 /* UIImage+Compare.m in Sources */,
-				B6EE380A20E764D912CF7CF9DDCCA9BA /* UIImage+Diff.m in Sources */,
-				378EEE0B1A986D3F82344A8E1F9961EB /* UIImage+Snapshot.m in Sources */,
+				54A698F05B02B66191CD7C81B92A64FF /* Pods-DigitAdderUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		442DFDCE61A73628D06548FAB1974EFA /* PBXTargetDependency */ = {
+		2A34E4A95350FAEED447BEB0834EBD95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DigitAdder";
-			target = C3FCC8DC94F55CA1359D9C48DC98FB47 /* Pods-DigitAdder */;
-			targetProxy = C4351D1BF244BB53B853BE0389926B66 /* PBXContainerItemProxy */;
+			target = 3A7C052980859AC7A1D565D2BC4E50BA /* Pods-DigitAdder */;
+			targetProxy = D140B64323B8F6379EFF2D973667DB9D /* PBXContainerItemProxy */;
 		};
-		A03894FDABD6F6C6CAC38AB4FF1FD041 /* PBXTargetDependency */ = {
+		9B52682A65083C19AF1AF32D4973894B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSSnapshotTestCase;
-			target = BFC6DB46D0F2DC7150A42264441BA14D /* iOSSnapshotTestCase */;
-			targetProxy = 0F55B4D8DC2046140B2CBB5B742D84DF /* PBXContainerItemProxy */;
+			target = CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */;
+			targetProxy = E0A139235E7D9CEDFF99ABCF0F7736CF /* PBXContainerItemProxy */;
 		};
-		CA7C1B21FAE870AAD9E3720FCA766C2C /* PBXTargetDependency */ = {
+		A0D92F99B010C46215669E6064CE3E1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSSnapshotTestCase;
-			target = BFC6DB46D0F2DC7150A42264441BA14D /* iOSSnapshotTestCase */;
-			targetProxy = DE654950B2B1324846AD7B13EF129DC4 /* PBXContainerItemProxy */;
+			target = CCB670195D5BD218E1661BC4890D70E2 /* iOSSnapshotTestCase */;
+			targetProxy = 695C1091ADB46B3ED639CB9439870192 /* PBXContainerItemProxy */;
 		};
-		EB15ECB9528B6397599AD3F953054D68 /* PBXTargetDependency */ = {
+		DF61291CB633956C6E657A09918B917E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DigitAdder";
-			target = C3FCC8DC94F55CA1359D9C48DC98FB47 /* Pods-DigitAdder */;
-			targetProxy = D6C9A6C1588F011C1DAE95FDEBA44F83 /* PBXContainerItemProxy */;
+			target = 3A7C052980859AC7A1D565D2BC4E50BA /* Pods-DigitAdder */;
+			targetProxy = 1083ECCC46A05400230AA1710B740E40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+		14ECCBB7B2984596DDE54D401AACBD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70253F0154323D468AA4860826BAE8E /* iOSSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C74B0A4AF7F13A0553F0C1ACA4A2068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B3397CFE1AEADC4603FE2DE6CBDBF8 /* Pods-DigitAdderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdderTests/Pods-DigitAdderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31FBCF96A6C06E1B2DF3280310E0852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEFA21C747306659255B436BB2E9FAF /* Pods-DigitAdderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdderUITests/Pods-DigitAdderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54321318D8E5DA5A7957155E2EB4532B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70253F0154323D468AA4860826BAE8E /* iOSSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F01E1D8F96294592A832BB7BAF45F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEC92E17B2668DC8DC93B416C854D14 /* Pods-DigitAdder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdder/Pods-DigitAdder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78909E79613B69C4DB94C155C275F831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CAE11A6F8C7A6DC6C73CFBB39D117A /* Pods-DigitAdder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdder/Pods-DigitAdder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -611,226 +871,19 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		129DBC8C83B32DD6D816821CE806FEBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AEFA21C747306659255B436BB2E9FAF /* Pods-DigitAdderUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdderUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdderUITests/Pods-DigitAdderUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		20CA2FCB313805EF38103CAF10774996 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2B3397CFE1AEADC4603FE2DE6CBDBF8 /* Pods-DigitAdderTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdderTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdderTests/Pods-DigitAdderTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3DA56FCB2D6D594419975F80D5EACBBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CEC92E17B2668DC8DC93B416C854D14 /* Pods-DigitAdder.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdder/Pods-DigitAdder.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		451F37992CA484421526FF9474F47970 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5CAE11A6F8C7A6DC6C73CFBB39D117A /* Pods-DigitAdder.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdder/Pods-DigitAdder.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92A6707139F76E4159CBD376CF7328C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E70253F0154323D468AA4860826BAE8E /* iOSSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9D89970C6C672D873946708F3C09623D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3D6B16C5FAD97EB5766E943906ABE30 /* Pods-DigitAdderUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdderUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdderUITests/Pods-DigitAdderUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+		B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -882,45 +935,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		FD93DE07F5DEDC543C26DC2DF3D700AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E70253F0154323D468AA4860826BAE8E /* iOSSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE349B77679FE5E5B68A5134066C8AB7 /* Release */ = {
+		E4DF2D6D867BED6A499927C8A186826F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E07466D6CD3A664C030DB39A7F04AD6 /* Pods-DigitAdderTests.release.xcconfig */;
 			buildSettings = {
@@ -938,7 +963,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdderTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdderTests/Pods-DigitAdderTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -948,7 +977,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -956,50 +984,88 @@
 			};
 			name = Release;
 		};
+		ED7B1D605507727938917A3181F468CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D6B16C5FAD97EB5766E943906ABE30 /* Pods-DigitAdderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitAdderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitAdderUITests/Pods-DigitAdderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0DDEA24393EF6D7D571E7A694905FFFC /* Build configuration list for PBXNativeTarget "Pods-DigitAdderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7B1D605507727938917A3181F468CD /* Debug */,
+				31FBCF96A6C06E1B2DF3280310E0852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
-				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+				98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */,
+				B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6240B299005DEA7FF4670E5681B97704 /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */ = {
+		57E8531F7C3185B6730A19BDE5E98259 /* Build configuration list for PBXNativeTarget "Pods-DigitAdder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD93DE07F5DEDC543C26DC2DF3D700AA /* Debug */,
-				92A6707139F76E4159CBD376CF7328C1 /* Release */,
+				6F01E1D8F96294592A832BB7BAF45F3D /* Debug */,
+				78909E79613B69C4DB94C155C275F831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72B6EA2E2742DFF04EC613A8976C2FB5 /* Build configuration list for PBXNativeTarget "Pods-DigitAdderTests" */ = {
+		D4E91BF0A62B789C2FFD34BFA9158E62 /* Build configuration list for PBXNativeTarget "Pods-DigitAdderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20CA2FCB313805EF38103CAF10774996 /* Debug */,
-				FE349B77679FE5E5B68A5134066C8AB7 /* Release */,
+				2C74B0A4AF7F13A0553F0C1ACA4A2068 /* Debug */,
+				E4DF2D6D867BED6A499927C8A186826F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C862A6809BF996F747B82DB7438DF330 /* Build configuration list for PBXNativeTarget "Pods-DigitAdderUITests" */ = {
+		D5813A2F6B0CDB6FD40A1348BFBA82EA /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D89970C6C672D873946708F3C09623D /* Debug */,
-				129DBC8C83B32DD6D816821CE806FEBC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF836D29476471E0477D6DF15D6AE03D /* Build configuration list for PBXNativeTarget "Pods-DigitAdder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3DA56FCB2D6D594419975F80D5EACBBE /* Debug */,
-				451F37992CA484421526FF9474F47970 /* Release */,
+				14ECCBB7B2984596DDE54D401AACBD3F /* Debug */,
+				54321318D8E5DA5A7957155E2EB4532B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
