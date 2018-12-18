@@ -18,8 +18,8 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
  lane :build do
-  run_tests(workspace: "MathGame-iOS.xcworkspace",
+  run_tests(workspace: "DigitAdder.xcworkspace",
             devices: ["iPhone 6s"],
-            scheme: "MathGame-iOS")
+            scheme: "DigitAdder")
 end
 end
