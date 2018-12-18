@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='SampleCI_CDProjectTests.xctest' tests='3' failures='0'>
+  <testsuite name='SampleCI_CDProjectUITests.SampleCI_CDProjectUITests' tests='1' failures='0'>
+    <testcase classname='SampleCI_CDProjectUITests.SampleCI_CDProjectUITests' name='testExample' time='5.760'/>
+  </testsuite>
+  <testsuite name='SampleCI_CDProjectTests.SampleCI_CDProjectTests' tests='2' failures='0'>
+    <testcase classname='SampleCI_CDProjectTests.SampleCI_CDProjectTests' name='testExample' time='0.001'/>
+    <testcase classname='SampleCI_CDProjectTests.SampleCI_CDProjectTests' name='testPerformanceExample' time='0.363'/>
+  </testsuite>
+</testsuites>
