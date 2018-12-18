@@ -20,6 +20,6 @@ platform :ios do
  lane :build do
   run_tests(workspace: "DigitAdder.xcworkspace",
             devices: ["iPhone 6s"],
-            scheme: "DigitAdder")
+            scheme: "DigitAdderTests")
 end
 end
