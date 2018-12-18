@@ -12,19 +12,15 @@ import FBSnapshotTestCase
 
 class MainVCUITest: FBSnapshotTestCase {
     var sut: MainViewController!
-    var window: UIWindow!
     
-
     override func setUp() {
         super.setUp()
-        window = UIWindow()
         setupViewController()
-        recordMode = true
+        //recordMode = true
 
     }
     override func tearDown()
     {
-        window = nil
         super.tearDown()
     }
     
@@ -32,19 +28,25 @@ class MainVCUITest: FBSnapshotTestCase {
     
     func setupViewController()
     {
-//        let storyboard = UIStoryboard(name: "Main",
-//                                      bundle: Bundle.init(for:self)
-//        let viewController =
-//            storyboard.instantiateViewController(
-//                withIdentifier: "MainViewController")
         sut =  MainViewController()
-        sut.loadViewIfNeeded()
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: type(of: self)))
+        
+        sut = storyboard.instantiateViewController(withIdentifier: "MainViewController") as? MainViewController
+        
+        sut.loadView()
     }
     
     func loadView()
     {
-        RunLoop.current.run(until: Date())
-        FBSnapshotVerifyView(sut.view)
+        let validation = expectation(description: "FullFill")
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Double(NSEC_PER_SEC)) / Double(NSEC_PER_SEC), execute: {
+            validation.fulfill()
+            self.FBSnapshotVerifyView(self.sut.view)
+        })
+
+        self.waitForExpectations(timeout: 10){ error in }
+
     }
     
     // MARK: Tests

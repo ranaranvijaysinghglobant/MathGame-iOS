@@ -24,6 +24,10 @@
 		CC7F766921C7B27A007E32EE /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F766021C3A4AA007E32EE /* MainViewPresenter.swift */; };
 		CC7F766A21C7B27A007E32EE /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F766021C3A4AA007E32EE /* MainViewPresenter.swift */; };
 		CC87B5C921C8F88900F6D944 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87B5C821C8F88900F6D944 /* Utility.swift */; };
+		CC87B5CA21C8FD0600F6D944 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87B5C821C8F88900F6D944 /* Utility.swift */; };
+		CC87B5CB21C8FD0600F6D944 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87B5C821C8F88900F6D944 /* Utility.swift */; };
+		CC87B5CC21C91BEB00F6D944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3EAC5E21C12C19003AFE9A /* Assets.xcassets */; };
+		CC87B5CD21C91BEB00F6D944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3EAC5E21C12C19003AFE9A /* Assets.xcassets */; };
 		CC968EC321C12FA50040F2D1 /* MainVCUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC968EC221C12FA50040F2D1 /* MainVCUITest.swift */; };
 		D61C83D89ED6C8F8F0F92F9B /* Pods_DigitAdderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07268A6CCF6BD8B7B0F3C0D4 /* Pods_DigitAdderUITests.framework */; };
 /* End PBXBuildFile section */
@@ -299,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC87B5CC21C91BEB00F6D944 /* Assets.xcassets in Resources */,
 				CC7F766721C77976007E32EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC87B5CD21C91BEB00F6D944 /* Assets.xcassets in Resources */,
 				CC7F766821C77977007E32EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC87B5CA21C8FD0600F6D944 /* Utility.swift in Sources */,
 				CC3EAC6D21C12C19003AFE9A /* DigitAdderTests.swift in Sources */,
 				CC7F766621C77969007E32EE /* MainVCUITest.swift in Sources */,
 				CC7F766921C7B27A007E32EE /* MainViewPresenter.swift in Sources */,
@@ -432,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC87B5CB21C8FD0600F6D944 /* Utility.swift in Sources */,
 				CC7F765D21C26E90007E32EE /* MainViewController.swift in Sources */,
 				CC7F766A21C7B27A007E32EE /* MainViewPresenter.swift in Sources */,
 				CC3EAC7821C12C19003AFE9A /* DigitAdderUITests.swift in Sources */,
