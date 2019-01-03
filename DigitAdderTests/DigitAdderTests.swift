@@ -18,10 +18,36 @@ class DigitAdderTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testRandomNumberGenerator() {
+        
+        let stringRandom = Utility.sharedInstance.generateRandomNumber()
+        XCTAssertNotNil(stringRandom as? String)
+        
+        XCTAssertEqual(stringRandom.count, 4)
+        
+        if let intRandowm = Int(stringRandom){
+            XCTAssertGreaterThan(intRandowm, 0)
+        }
+        
+    }
+    
+    func testGetScores(){
+        let score = Utility.sharedInstance.getScore()
+       XCTAssertGreaterThanOrEqual(score,0)
+    }
+    
+    
+    func testAnswer(){
+        
+        let ans = 1111 - 0000
+        let status = Utility.sharedInstance.verifyAnswerfor(input: 0000, numbers: 1111)
+        if ans == 0 {
+            XCTAssertTrue(status)
+        }
+        else {
+            XCTAssertFalse(status)
+        }
     }
 
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		75E1C99094F914849EA96701 /* Pods_DigitAdderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C628B696DC502E1406A830 /* Pods_DigitAdderTests.framework */; };
 		90B5587BAEFA5F392DB220B2 /* Pods_DigitAdder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB0B205D5C1DB5ECF4B8AE1 /* Pods_DigitAdder.framework */; };
+		CC361F8F21DDF0EC007B0CD2 /* DigitAdderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3EAC6C21C12C19003AFE9A /* DigitAdderTests.swift */; };
 		CC3EAC5821C12C18003AFE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3EAC5721C12C18003AFE9A /* AppDelegate.swift */; };
 		CC3EAC5A21C12C18003AFE9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3EAC5921C12C18003AFE9A /* MainViewController.swift */; };
 		CC3EAC5D21C12C18003AFE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3EAC5B21C12C18003AFE9A /* Main.storyboard */; };
@@ -441,6 +442,7 @@
 			files = (
 				CC87B5CB21C8FD0600F6D944 /* Utility.swift in Sources */,
 				CC7F765D21C26E90007E32EE /* MainViewController.swift in Sources */,
+				CC361F8F21DDF0EC007B0CD2 /* DigitAdderTests.swift in Sources */,
 				CC7F766A21C7B27A007E32EE /* MainViewPresenter.swift in Sources */,
 				CC3EAC7821C12C19003AFE9A /* DigitAdderUITests.swift in Sources */,
 				CC968EC321C12FA50040F2D1 /* MainVCUITest.swift in Sources */,
