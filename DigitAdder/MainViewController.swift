@@ -19,8 +19,8 @@ public class MainViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-        self.presenter = MainViewPresenter(delegate: self)
         inputTextfield?.addTarget(self, action: #selector(textFieldDidChange(textField:)), for:UIControl.Event.editingChanged)
+        presenter = MainViewPresenterImpl.init(view:self)
         presenter?.viewDidLoad()
     }
     

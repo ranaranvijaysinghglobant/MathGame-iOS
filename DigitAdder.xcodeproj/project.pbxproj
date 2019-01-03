@@ -10,6 +10,8 @@
 		75E1C99094F914849EA96701 /* Pods_DigitAdderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C628B696DC502E1406A830 /* Pods_DigitAdderTests.framework */; };
 		90B5587BAEFA5F392DB220B2 /* Pods_DigitAdder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB0B205D5C1DB5ECF4B8AE1 /* Pods_DigitAdder.framework */; };
 		CC361F8F21DDF0EC007B0CD2 /* DigitAdderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3EAC6C21C12C19003AFE9A /* DigitAdderTests.swift */; };
+		CC361F9121DDFB67007B0CD2 /* MainPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC361F9021DDFB67007B0CD2 /* MainPresenterTest.swift */; };
+		CC361F9421DDFC21007B0CD2 /* MainViewControllerStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC361F9321DDFC21007B0CD2 /* MainViewControllerStub.swift */; };
 		CC3EAC5821C12C18003AFE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3EAC5721C12C18003AFE9A /* AppDelegate.swift */; };
 		CC3EAC5A21C12C18003AFE9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3EAC5921C12C18003AFE9A /* MainViewController.swift */; };
 		CC3EAC5D21C12C18003AFE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3EAC5B21C12C18003AFE9A /* Main.storyboard */; };
@@ -58,6 +60,8 @@
 		512D04D3ED189AA7FEFFCFFC /* Pods-DigitAdderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitAdderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitAdderUITests/Pods-DigitAdderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6FDBAEC01BACF40DC20704DE /* Pods-DigitAdder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitAdder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitAdder/Pods-DigitAdder.debug.xcconfig"; sourceTree = "<group>"; };
 		C974374B08DF4A382D7425EB /* Pods-DigitAdderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitAdderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitAdderUITests/Pods-DigitAdderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC361F9021DDFB67007B0CD2 /* MainPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTest.swift; sourceTree = "<group>"; };
+		CC361F9321DDFC21007B0CD2 /* MainViewControllerStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerStub.swift; sourceTree = "<group>"; };
 		CC3EAC5421C12C18003AFE9A /* DigitAdder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitAdder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3EAC5721C12C18003AFE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3EAC5921C12C18003AFE9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC361F9221DDFBC8007B0CD2 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				CC361F9021DDFB67007B0CD2 /* MainPresenterTest.swift */,
+				CC361F9321DDFC21007B0CD2 /* MainViewControllerStub.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		CC3EAC4B21C12C18003AFE9A = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +182,7 @@
 		CC3EAC6B21C12C19003AFE9A /* DigitAdderTests */ = {
 			isa = PBXGroup;
 			children = (
+				CC361F9221DDFBC8007B0CD2 /* MainView */,
 				CC3EAC6C21C12C19003AFE9A /* DigitAdderTests.swift */,
 				CC3EAC6E21C12C19003AFE9A /* Info.plist */,
 			);
@@ -430,9 +444,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC87B5CA21C8FD0600F6D944 /* Utility.swift in Sources */,
+				CC361F9121DDFB67007B0CD2 /* MainPresenterTest.swift in Sources */,
 				CC3EAC6D21C12C19003AFE9A /* DigitAdderTests.swift in Sources */,
 				CC7F766621C77969007E32EE /* MainVCUITest.swift in Sources */,
 				CC7F766921C7B27A007E32EE /* MainViewPresenter.swift in Sources */,
+				CC361F9421DDFC21007B0CD2 /* MainViewControllerStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,27 +8,33 @@
 
 import Foundation
 
-protocol MainView{
+protocol MainView: class {
     func updateTimeLabelWith(text:String)
     func showAlertTimeUpWith(finalMessage:String)
     func setRandomNumberLabelWith(text:String)
     func updateScoreLabelWith(text:String)
 }
 
-
-
-class MainViewPresenter{
-    var view: MainView
-    var timer:Timer?
-    var seconds:Int = 60
+protocol MainViewPresenter{
+    func viewDidLoad()
+    func resetTimer()
+    func getTimeLeftString() -> String
+    func verifyTextChangedforAnswer(input:String,currentText:String) -> Bool
+}
+class MainViewPresenterImpl: MainViewPresenter{
     
-    init(delegate: MainView) {
-        self.view = delegate
+   fileprivate var view: MainView?
+    var timer:Timer?
+    var seconds:Int = 60    
+    
+    
+    init(view: MainView) {
+        self.view = view
     }
     
     func viewDidLoad() {
-        view.setRandomNumberLabelWith(text: "\(Utility.sharedInstance.generateRandomNumber())")
-        view.updateScoreLabelWith(text: "\(Utility.sharedInstance.getScore())")
+        view?.setRandomNumberLabelWith(text: "\(Utility.sharedInstance.generateRandomNumber())")
+        view?.updateScoreLabelWith(text: "\(Utility.sharedInstance.getScore())")
         resetTimer()
     }
     
@@ -45,7 +51,7 @@ class MainViewPresenter{
         if(seconds > 0 && seconds <= 60)
         {
             seconds -= 1
-            view.updateTimeLabelWith(text: getTimeLeftString())
+            view?.updateTimeLabelWith(text: getTimeLeftString())
         }
         else if(seconds == 0)
         {
@@ -63,11 +69,10 @@ class MainViewPresenter{
                 
                 seconds = 60
                 Utility.sharedInstance.resetScore()
-                
-                view.showAlertTimeUpWith(finalMessage: finalMessage)
-                view.updateTimeLabelWith(text: getTimeLeftString())
-                view.updateScoreLabelWith(text: "\(Utility.sharedInstance.getScore())")
-                view.setRandomNumberLabelWith(text: "\(Utility.sharedInstance.generateRandomNumber())")
+                view?.showAlertTimeUpWith(finalMessage: finalMessage)
+                view?.updateTimeLabelWith(text: getTimeLeftString())
+                view?.updateScoreLabelWith(text: "\(Utility.sharedInstance.getScore())")
+                view?.setRandomNumberLabelWith(text: "\(Utility.sharedInstance.generateRandomNumber())")
                 
             }
         }
@@ -91,8 +96,8 @@ class MainViewPresenter{
             
         }
         
-        view.setRandomNumberLabelWith(text:"\(Utility.sharedInstance.generateRandomNumber())" )
-        view.updateScoreLabelWith(text: "\(Utility.sharedInstance.getScore())")
+        view?.setRandomNumberLabelWith(text:"\(Utility.sharedInstance.generateRandomNumber())" )
+        view?.updateScoreLabelWith(text: "\(Utility.sharedInstance.getScore())")
         
         return result
         
